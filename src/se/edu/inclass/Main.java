@@ -28,7 +28,7 @@ public class Main {
         for (Task t : filterByString(tasksData, "11")) {
             System.out.println(t);
         }
-        countDeadlinesUsingStreams(tasksData);
+        System.out.println(countDeadlinesUsingStreams(tasksData));
     }
 
     private static int countDeadlines(ArrayList<Task> tasksData) {
